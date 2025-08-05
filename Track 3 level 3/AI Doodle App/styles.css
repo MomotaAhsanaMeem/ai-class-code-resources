@@ -1,0 +1,14 @@
+canvas{
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 250px;
+    margin-left: 20;
+    margin-right: 20%;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 40px rgb(224, 14, 14);}
+    to {box-shadow: 1px 1px 40px green;}
+}

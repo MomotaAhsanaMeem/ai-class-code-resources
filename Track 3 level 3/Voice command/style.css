@@ -1,0 +1,26 @@
+canvas{
+    border-radius: 50px;
+    animation-name: canvasAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: -180px;
+    margin-left: 20;
+    margin-right: 20%;
+}
+
+@keyframes canvasAnimation{
+    from{box-shadow: 1px 1px 40px rgb(224, 14, 14);}
+    to {box-shadow: 1px 1px 40px rgb(17, 0, 128);}
+}
+
+h1{
+    font-size: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+h2{
+    margin: 50px;
+    font-family: cursive;
+}

@@ -1,0 +1,2 @@
+class 6---> teachable machine model was created
+class 7---> export model and detect image

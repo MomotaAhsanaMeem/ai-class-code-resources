@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #result_label {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  
+  #result_confidence {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .alien {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+  
+  .alien.active {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .aliens-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }

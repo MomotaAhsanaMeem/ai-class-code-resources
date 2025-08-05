@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Selfie</title>
+    <style>
+        /* Styling for the webcam feed area */
+        #webcam {
+            width: 320px;
+            height: 240px;
+            margin-bottom: 10px;
+        }
+        /* Optional: styling to hide the save link initially */
+        #save-link {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selfie Time!</h1>
+
+    <!-- Webcam Display with specified width and height -->
+    <div id="webcam"></div>
+
+    <!-- Button to take a selfie with a delay -->
+    <button id="take-selfie">Take Selfie (3s delay)</button>
+
+    <!-- Display the photo -->
+    <h2>Your Selfie:</h2>
+    <img id="photo" src="" alt="Your photo will appear here">
+
+    <!-- Link to save the photo -->
+    <a id="save-link" download="selfie.png">Save Selfie</a>
+    <button id="delete-photo">Delete Photo</button>
+
+    <!-- Include Webcam.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.min.js"></script>
+    <script src="selfie.js"></script>
+</body>
+</html>
